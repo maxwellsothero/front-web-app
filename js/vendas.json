@@ -1,0 +1,30 @@
+[
+{
+    "horario": "08:00",
+    "cliente": "Maxwell"
+},
+{   "idcompra": 1,
+    "caixa":    1    
+},
+{
+    "nome": "Bebidas",
+    "descricao": "Cerveja",
+    "valor": 4.99,
+    "quantidade": 10
+},
+{
+    "nome": "Açougue",
+    "descricao": "Carne",
+    "valor": 35.99,
+    "quantidade": 6
+},
+{
+    "nome": "grãos",
+    "descricao": "Arroz",
+    "valor": 9.99,
+    "quantidade": 3
+}
+
+
+
+]
