@@ -1,22 +1,28 @@
 {
   "categorias": [
     {
-      "nome": "achocolatado",
-      "descricao": "chocolates e derivados",
-      "foto": "https://organalimentos.com.br/wp-content/uploads/2021/07/achocolatado-organico-kids-200g-FOTO.png",
-      "id": 1
-    },
-    {
-      "nome": "chocolatado",
-      "descricao": "chocolates4 e derivados",
-      "foto": "https://imgs.casasbahia.com.br/1511382951/2xg.jpg",
-      "id": 4
-    },
-    {
-      "nome": "suco de laranja",
-      "descricao": "suco e derivados",
+      "nome": "dasdasdasdasd",
+      "descricao": "suco de laranja",
       "foto": "https://static1.conquistesuavida.com.br/articles//5/10/83/5/@/29327-sucos-funcionais-extraem-o-melhor-das-fr-article_block_media-2.jpg",
-      "id": 5
+      "id": 9
+    },
+    {
+      "nome": "GFGDF",
+      "descricao": "suco de laranja",
+      "foto": "https://static1.conquistesuavida.com.br/articles//5/10/83/5/@/29327-sucos-funcionais-extraem-o-melhor-das-fr-article_block_media-2.jpg",
+      "id": 10
+    },
+    {
+      "nome": "GFGDF",
+      "descricao": "suco de laranja",
+      "foto": "https://static1.conquistesuavida.com.br/articles//5/10/83/5/@/29327-sucos-funcionais-extraem-o-melhor-das-fr-article_block_media-2.jpg",
+      "id": 12
+    },
+    {
+      "nome": "teste",
+      "descricao": "suco de laranja",
+      "foto": "https://static1.conquistesuavida.com.br/articles//5/10/83/5/@/29327-sucos-funcionais-extraem-o-melhor-das-fr-article_block_media-2.jpg",
+      "id": 13
     }
   ]
 }

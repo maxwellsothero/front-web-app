@@ -12,13 +12,16 @@
     <section class="card card-body mt-5">
                 <h1 class="text-center">Listar Categorias</h1>
                 <hr>
+
+                <div id="notificacoes"></div>
+
                 <div data-bs-toggle="collapse" data-bs-target="#add-categoria" class="text-end mb-3">
                   <button class="btn btn-outline-primary"> Nova Categoria</button>
                 </div>
                 <div class="collapse mb-3 row" id="add-categoria">
                   <div class=" col-md-6 offset-md-6">
                     <article class="card card-body bg-light">
-                      <form onsubmit="inserirCategorias()">
+                      <form id="form_add_categoria" onsubmit="inserirCategorias()">
                           <label for="nome">Nome</label>
                           <input id="nome" type="text" class="form-control">
 
@@ -66,6 +69,34 @@
     </div>
   </div>
     </section>
+    <!--modal editar-->
+    <div class="modal fade" id="modal-editar-categoria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-x1">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Editar Categoria</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" >
+            <form id="form_edit_categoria" onsubmit="atualizarCategoria()">
+
+              <input type="hidden" id="editar-id">
+              <label for="editar-nome">Nome</label>
+              <input id="editar-nome" type="text" class="form-control">
+
+              <label for="editar-descricao">Descrição</label>
+              <input id="editar-descricao" type="text" class="form-control">
+
+              <label for="editar-foto">foto</label>
+              <input id="editar-foto" type="url" class="form-control mb-3">
+              <button class="btn btn-primary" data-bs-dismiss="modal">Atualizar</button>
+          </form>
+            
+          </div>
+         
+        </div>
+      </div>
+    </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/categorias.js"></script>
 </body>
